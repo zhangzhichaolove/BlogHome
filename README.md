@@ -23,6 +23,6 @@ git push -u origin main
 ### github key
 
 ```
-git remote add origin https://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@github.com/zhangzhichaolove/zhangzhichaolove.github.io.git
-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
+git remote add origin https://ghp_xxxx@github.com/zhangzhichaolove/zhangzhichaolove.github.io.git
+ghp_xxxx
 ```
