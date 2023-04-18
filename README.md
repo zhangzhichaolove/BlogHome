@@ -1,3 +1,5 @@
+### mkdocs-material
+
 ```
 docker pull squidfunk/mkdocs-material:9.1.6
 docker run --rm -it -p 8000:8000 -v /Users/peakchao/Code/Web:/docs squidfunk/mkdocs-material:9.1.6 new BlogHome
@@ -16,4 +18,11 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/zhangzhichaolove/BlogHome.git
 git push -u origin main
+```
+
+### github key
+
+```
+git remote add origin https://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@github.com/zhangzhichaolove/zhangzhichaolove.github.io.git
+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
 ```
