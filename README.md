@@ -24,5 +24,4 @@ git push -u origin main
 
 ```
 git remote add origin https://ghp_xxxx@github.com/zhangzhichaolove/zhangzhichaolove.github.io.git
-ghp_xxxx
 ```
