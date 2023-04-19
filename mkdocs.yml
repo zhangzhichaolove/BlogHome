@@ -1,1 +1,75 @@
-site_name: My Docs
+site_name: peakchao-博客中心
+site_author: peakchao
+site_description: peakchao-博客中心
+copyright: <a href="https://blog.peakchao.com">©版权所有 蜀ICP备18012666号</a>.
+
+repo_name: GitHub
+repo_url: https://github.com/zhangzhichaolove/zhangzhichaolove.github.io
+
+# extra_css:
+#   - css/extra.css
+docs_dir: "docs"
+
+theme:
+  name: material
+  favicon: assets/logo.png
+  language: zh
+  # icon:
+  #   logo: github
+  # features:
+  #   - navigation.tabs
+  #   - navigation.top
+  #   - navigation.tracking
+  # palette:
+  #   - scheme: default
+  #     primary: white
+  #     accent: white
+  #     toggle:
+  #       icon: theme-pink
+  #       name: 切换主题模式
+  #   - scheme: default
+  #     primary: pink
+  #     accent: pink
+  #     toggle:
+  #       icon: theme
+  #       name: 切换主题模式
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+extra:
+  search:
+    language: 'jp'
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/zhangzhichaolove"
+    - icon: "fontawesome/brands/docker"
+      link: "https://github.com/zhangzhichaolove"
+    - icon: fontawesome/brands/twitter
+      link: https://github.com/zhangzhichaolove
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:admin@peakchao.com
+      name: 邮箱
